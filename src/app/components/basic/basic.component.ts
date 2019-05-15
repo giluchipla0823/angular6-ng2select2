@@ -39,7 +39,8 @@ export class BasicComponent implements OnInit {
       width: '100%',
       placeholder: 'Seleccionar',
       theme: 'bootstrap',
-      allowClear: true
+      allowClear: true,
+      language: "es"
     }
   }
 

@@ -1,0 +1,5 @@
+# Repositorio del plugin
+https://github.com/NejcZdovc/ng2-select2-demo
+
+# Librerías
+https://libraries.io/search?q=select2+angular
