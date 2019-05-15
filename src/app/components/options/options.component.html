@@ -1,0 +1,22 @@
+<div>
+  <h1 class="display-4">2. Demo with options</h1>
+  <hr class="my-4">
+
+  <div class="row">
+    <div class="col form-group">
+      <label>Seleccionar múltiple</label>
+      <select2 [data]="data" 
+               [options]="options"
+               [value]="selected"
+               (valueChanged)="changed($event)"></select2>
+
+      <pre>{{ selected | json }}</pre>
+    </div>
+
+    <div class="col form-group">
+        <label>Nombres</label>
+        <input type="text" class="form-control" />
+    </div>
+  </div>
+</div>
+
